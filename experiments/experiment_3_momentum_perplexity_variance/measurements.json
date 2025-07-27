@@ -1,0 +1,222 @@
+{
+    "measurements": [
+        {
+            "model_name": "Qwen/Qwen2.5-1.5B-Instruct",
+            "global_energy_cv": 0.01225,
+            "average_energy_cv": 0.016792,
+            "average_energy": 9.663,
+            "params_size_b": 1.5,
+            "mean_ratio":  13.629550,
+            "mean_kinetic_energy": 9.002864,
+            "mean_potential_energy": 0.660540,
+            "random_weights": false
+        },
+        {
+            "model_name": "Qwen/Qwen2.5-3B-Instruct",
+            "global_energy_cv": 0.072667,
+            "average_energy_cv": 0.015117,
+            "average_energy": 9.736531085992,
+            "params_size_b": 3,
+            "mean_ratio":  17.670319,
+            "mean_kinetic_energy": 0.521498,
+            "mean_potential_energy": 0.660540,
+            "random_weights": false
+        },
+        {
+            "model_name": "meta-llama/Llama-3.2-1B",
+            "global_energy_cv": 0.084989,
+            "average_energy_cv": 0.020135,
+            "average_energy": 9.156796279192,
+            "params_size_b": 1,
+            "mean_ratio":  10.169570,
+            "mean_kinetic_energy": 8.336995,
+            "mean_potential_energy": 0.819798,
+            "random_weights": false
+        },
+        {
+            "model_name": "meta-llama/Llama-3.2-3B-Instruct",
+            "global_energy_cv": 0.084143,
+            "average_energy_cv": 0.021733,
+            "average_energy": 8.766300688964,
+            "params_size_b": 3,
+            "mean_ratio":  12.040410,
+            "mean_kinetic_energy": 8.094057,
+            "mean_potential_energy": 0.672241,
+            "random_weights": false
+        },
+        {
+            "model_name": "HuggingFaceTB/SmolLM2-135M-Instruct",
+            "global_energy_cv": 0.116630,
+            "average_energy_cv": 0.022085,
+            "average_energy": 7.355787563008,
+            "params_size_b": 0.135,
+            "mean_ratio":  7.257951,
+            "mean_kinetic_energy": 6.465032,
+            "mean_potential_energy": 0.890752,
+            "random_weights": false
+        },
+        {
+            "model_name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+            "global_energy_cv": 0.103171,
+            "average_energy_cv": 0.023636,
+            "average_energy": 7.99555432248,
+            "params_size_b": 1.7,
+            "mean_ratio":  12.770707,
+            "mean_kinetic_energy": 7.414932,
+            "mean_potential_energy": 0.580620,
+            "random_weights": false
+        },
+        {
+            "model_name": "HuggingFaceTB/SmolLM3-3B",
+            "global_energy_cv": 0.091878,
+            "average_energy_cv": 0.018156,
+            "average_energy": 97.0617751120920005,
+            "params_size_b": 3,
+            "mean_ratio":  12.373992,
+            "mean_kinetic_energy": 6.533750,
+            "mean_potential_energy": 0.528023,
+            "random_weights": false
+        },
+        {
+            "model_name": "google/gemma-3-1b-it",
+            "global_energy_cv": 0.2078395,
+            "average_energy_cv": 0.126002,
+            "average_energy": 8.024024982008,
+            "params_size_b": 1,
+            "mean_ratio":  15.193734,
+            "mean_kinetic_energy": 7.528521,
+            "mean_potential_energy": 0.495502,
+            "random_weights": false
+        },
+        {
+            "model_name": "HuggingFaceTB/SmolLM2-360M-Instruct",
+            "global_energy_cv": 0.129010,
+            "average_energy_cv": 0.024576,
+            "average_energy": 7.2301309545,
+            "params_size_b": 0.36,
+            "mean_ratio":  8.788631,
+            "mean_kinetic_energy": 6.491503,
+            "mean_potential_energy": 0.738625,
+            "random_weights": false
+        },
+        {
+            "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+            "global_energy_cv": 0.109987,
+            "average_energy_cv": 0.048193,
+            "average_energy": 9.002757970904,
+            "params_size_b": 1.5,
+            "mean_ratio":  11.121236,
+            "mean_kinetic_energy": 8.260029,
+            "mean_potential_energy": 0.742726,
+            "random_weights": false
+        },
+        {
+            "model_name": "Qwen/Qwen2.5-1.5B-Instruct:random",
+            "global_energy_cv": 0.021848,
+            "average_energy_cv": 0.007328,
+            "average_energy": 15.495910933935999,
+            "params_size_b": 1.5,
+            "mean_ratio": 0.774306,
+            "mean_kinetic_energy": 6.762392,
+            "mean_potential_energy": 8.733484,
+            "random_weights": true
+        },
+        {
+            "model_name": "Qwen/Qwen2.5-3B-Instruct:random",
+            "global_energy_cv": 0.017088,
+            "average_energy_cv": 0.002595,
+            "average_energy": 15.657580175648,
+            "params_size_b": 3,
+            "mean_ratio": 0.887836,
+            "mean_kinetic_energy": 7.363635,
+            "mean_potential_energy": 8.293912,
+            "random_weights": true
+        },
+        {
+            "model_name": "meta-llama/Llama-3.2-1B:random",
+            "global_energy_cv": 0.019793,
+            "average_energy_cv": 0.004134,
+            "average_energy": 15.323358626247998,
+            "params_size_b": 1,
+            "mean_ratio": 0.878650,
+            "mean_kinetic_energy": 7.166764,
+            "mean_potential_energy": 8.156562,
+            "random_weights": true
+        },
+        {
+            "model_name": "meta-llama/Llama-3.2-3B-Instruct:random",
+            "global_energy_cv": 0.021709,
+            "average_energy_cv": 0.002467,
+            "average_energy":15.212514822368,
+            "params_size_b": 3,
+            "mean_ratio":  1.040413,
+            "mean_kinetic_energy": 7.756893,
+            "mean_potential_energy": 7.455592,
+            "random_weights": true
+        },
+        {
+            "model_name":"HuggingFaceTB/SmolLM2-135M-Instruct:random",
+            "global_energy_cv": 0.031189,
+            "average_energy_cv": 0.009898,
+            "average_energy": 12.911940280928,
+            "params_size_b": 0.135,
+            "mean_ratio": 0.826236,
+            "mean_kinetic_energy": 5.841680,
+            "mean_potential_energy": 7.070232,
+            "random_weights": true
+        },
+        {
+            "model_name": "HuggingFaceTB/SmolLM3-3B:random",
+            "global_energy_cv": 0.021511,
+            "average_energy_cv": 0.003792,
+            "average_energy": 14.556598530591998,
+            "params_size_b": 3,
+            "mean_ratio": 0.971727,
+            "mean_kinetic_energy": 7.173921,
+            "mean_potential_energy": 7.382648,
+            "random_weights": true
+        },
+        {
+            "model_name": "HuggingFaceTB/SmolLM3-3B:random",
+            "global_energy_cv": 0.017278,
+            "average_energy_cv": 0.002286,
+            "average_energy": 15.51582160728,
+            "params_size_b": 3,
+            "mean_ratio": 0.903353,
+            "mean_kinetic_energy": 7.363969,
+            "mean_potential_energy": 8.151820,
+            "random_weights": true
+        },
+        {
+            "model_name": "google/gemma-3-1b-it:random",
+            "global_energy_cv": 0.026683,
+            "average_energy_cv": 0.004263,
+            "average_energy": 15.27078961276,
+            "mean_ratio": 1.134818,
+            "mean_kinetic_energy": 8.117571,
+            "mean_potential_energy": 7.153190,
+            "random_weights": true
+        },
+        {
+            "model_name": "HuggingFaceTB/SmolLM2-360M-Instruct:random",
+            "global_energy_cv": 0.221032,
+            "average_energy_cv": 0.047344,
+            "average_energy": 9.422933244048,
+            "mean_ratio": 0.133785,
+            "mean_kinetic_energy": 1.111888,
+            "mean_potential_energy": 8.311012,
+            "random_weights": true
+        },
+        {
+            "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B:random",
+            "global_energy_cv": 0.018015,
+            "average_energy_cv": 0.004961,
+            "average_energy": 15.527391930328,
+            "mean_ratio": 0.778095,
+            "mean_kinetic_energy": 6.794775,
+            "mean_potential_energy": 8.732582,
+            "random_weights": true
+        }
+        
+    ]
+}
